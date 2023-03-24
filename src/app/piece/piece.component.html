@@ -1,0 +1,7 @@
+<div *ngFor="let color of colors">
+    <div style="display: flex" *ngFor="let piece of pieces">
+      <span [innerHTML]="getPieceCode(color, piece)" style="margin-right: 10px"></span>
+    </div>
+<br />
+</div>
+  
